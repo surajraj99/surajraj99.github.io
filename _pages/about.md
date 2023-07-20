@@ -26,8 +26,8 @@ The Graduate Research Fellowship Program (GRFP) has opened numerous doors for me
 
 News
 ======
+- **6/27/2023**: Gave a talk at European Society of Human Reproduction and Embryology (ESHRE 2023) on "[Predicting Embryo Ploidy Status Using Time-lapse Images](https://academic.oup.com/humrep/article/38/Supplement_1/dead093.147/7203204)". Our abstract was published in Human Reproduction.
 - **5/30/2023**: Our paper, "[Web-Based Social Networks of Individuals With Adverse Childhood Experiences: Quantitative Study](https://pubmed.ncbi.nlm.nih.gov/37252791/)", was published in the Journal of Medical Internet Research.
-- **5/27/2023**: Gave a talk at European Society of Human Reproduction and Embryology (EDHRE 2023) on "[Predicting Embryo Ploidy Status Using Time-lapse Images](https://academic.oup.com/humrep/article/38/Supplement_1/dead093.147/7203204)". Our abstract was published in Human Reproduction.
 - **4/10/2023**: Our team were quarterfinalists in the Advanced Research Projects Agency for Health (ARPA-H) Dash to Accelerate Health Outcomes. Our idea was a Bionic Pancreas system for diabetes monitoring. 
 - **3/21/2023**: Our paper, "[Biomedical Discovery through the integrative Biomedical Knowledge Hub (iBKH)](https://pubmed.ncbi.nlm.nih.gov/37020958/)", was published in iScience.
 - **3/15/2023**: We published "[Data heterogeneity in federated learning with Electronic Health Records: Case studies of risk prediction for acute kidney injury and sepsis diseases in critical care](https://pubmed.ncbi.nlm.nih.gov/36920974/)" in PLOS Digital Health.
