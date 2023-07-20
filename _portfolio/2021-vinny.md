@@ -1,6 +1,6 @@
 ---
 title: "Novel Surgical Training Simulator for Lateral Access Spine Surgery"
-excerpt: "We built a training model for resident neurosurgeons to use when learning the the lateral access lumbar fusion (LLIF) procedure.<br/>[<img src='/images/vinny.jpeg'>](https://www.youtube.com/watch?v=9GXCsxObjpc)"
+excerpt: "We built a training model for Mayo Clinic resident neurosurgeons to use when learning the the lateral access lumbar fusion (LLIF) procedure.<br/>[<img src='/images/vinny.jpeg'>](https://www.youtube.com/watch?v=9GXCsxObjpc)"
 collection: portfolio
 ---
 
