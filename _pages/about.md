@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+About Me
+-----
 I am a Ph.D. student in the [Tri-Institutional PhD Program in Computational Biology](https://compbio.triiprograms.org/) at Weill Cornell Medical College, specializing in computational biology and bioinformatics. My research interests include the impact of data heterogeneity in federated learning, predicting the ploidy status of embryos using deep video classification, clinical trial emulation, and deep learning in genomics. I am honored to be supported by the National Science Foundation through a Graduate Research Fellowship. Currently, I am co-mentored by [Dr. Fei Wang](https://wcm-wanglab.github.io/) and [Dr. Iman Hajirasouliha](https://physiology.med.cornell.edu/faculty/hajirasouliha/lab/).
 
 In the past, I have had the opportunity to work as a Bioinformatics Researcher at Wake Forest School of Medicine under the guidance of [Dr. Umit Topaloglu](https://datascience.cancer.gov/about/staff-directory/umit-topaloglu). My projects there included the identification of immunotherapy-related adverse events (irAEs), predicting COVID-19 diagnosis using televisits and progress notes, and federated learning using cloud computing. I also worked on detecting smoking status using natural language processing.
@@ -17,15 +19,15 @@ During my undergraduate studies at Georgia Institute of Technology, I majored in
 In my free time, I enjoy exploring the latest advancements in machine learning and artificial intelligence. I am passionate about using technology to solve real-world problems and make a positive impact on society.
 
 Outreach
-======
-In the past three years, I have been actively involved in various outreach activities. Since March 2023, I have been a Research Mentor at [Lumiere Education](https://www.lumiere-education.com/) in New York City, where I have mentored students on machine learning in healthcare. I have also led a team for the Dept. of Health & Humans Services Blood Donation Campaign from October 2022 to February 2023, where we developed a winning proposal for the "Giving=Living" campaign aimed at promoting blood donations to address shortages.  I have also led a team addressing inequities in academic recognition for disadvantaged groups from December 2021 to April 2022. We [proposed a policy](https://www.me.gatech.edu/news/team-epics-wins-student-innovation-competition-promoting-equity-access) to ensure that students with disabilities get academic recognition for completed courses at Georgia Tech, and presented our findings to the Georgia Tech College of Engineering Diversity & Inclusion Council.
+-----
+I have been actively involved in various outreach activities. Since March 2023, I have been a Research Mentor at [Lumiere Education](https://www.lumiere-education.com/) in New York City, where I have mentored students on machine learning in healthcare. I have also led a team for the Dept. of Health & Humans Services Blood Donation Campaign from October 2022 to February 2023, where we developed a winning proposal for the "Giving=Living" campaign aimed at promoting blood donations to address shortages.  I have also led a team addressing inequities in academic recognition for disadvantaged groups from December 2021 to April 2022. We [proposed a policy](https://www.me.gatech.edu/news/team-epics-wins-student-innovation-competition-promoting-equity-access) to ensure that students with disabilities get academic recognition for completed courses at Georgia Tech, and presented our findings to the Georgia Tech College of Engineering Diversity & Inclusion Council.
 
 GRFP Help
-======
+-----
 The Graduate Research Fellowship Program (GRFP) has opened numerous doors for me, and I strongly urge all eligible individuals to consider applying. I'm more than willing to discuss the application process and provide insights based on my experience. If you're interested, I can also share my research and personal statement upon request.
 
 News
-======
+-----
 - **6/27/2023**: Gave a talk at European Society of Human Reproduction and Embryology (ESHRE 2023) on "[Predicting Embryo Ploidy Status Using Time-lapse Images](https://academic.oup.com/humrep/article/38/Supplement_1/dead093.147/7203204)". Our abstract was published in Human Reproduction.
 - **5/30/2023**: Our paper, "[Web-Based Social Networks of Individuals With Adverse Childhood Experiences: Quantitative Study](https://pubmed.ncbi.nlm.nih.gov/37252791/)", was published in the Journal of Medical Internet Research.
 - **4/10/2023**: Our team were quarterfinalists in the Advanced Research Projects Agency for Health (ARPA-H) Dash to Accelerate Health Outcomes. Our idea was a Bionic Pancreas system for diabetes monitoring. 
