@@ -1,10 +1,7 @@
 ---
-permalink: /
-title: "All News"
-author_profile: False
-redirect_from: 
-  - /news/
-  - /news.html
+layout: archive
+title: "News"
+permalink: /news/
 ---
 
 News
