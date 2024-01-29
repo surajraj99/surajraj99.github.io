@@ -28,6 +28,8 @@ The Graduate Research Fellowship Program (GRFP) has opened numerous doors for me
 
 News
 -----
+- **1/24/2024**: We published a review paper on Cross-Cohort Cross-Category Learning (C4) and its importance in the future of healthcare AI. Read it at Cell Patterns [here](https://www.cell.com/patterns/fulltext/S2666-3899(23)00322-7).
+- **12/11/2023**: Our team developed a curriculum for learning genomics for middle and high school students that the NIH plans on implementing at select schools across the United states, see [here](https://www.nibib.nih.gov/research-programs/BEAMS-challenge) for details.
 - **11/2/2023**: Check out the podcast episode where I talked about my research with Dr. Carina Minardi on [STEM From](https://www.stemfrom.org/podcast/episode/1d4b6552/suraj-rajendran-computational-biology-at-weill-cornell-medical-college).
 - **10/25/2023**: I gave a talk at Instituto de Salud Carlos III in Dr. Biagio Mandracchia's Introduction to Biomedical AI course. I talked about the burgeoning field of Cross-Cohort Cross-Category Learning (C4) and its applications in healthcare.
 - **9/19/2023**: Our team placed 3rd in NASA's Pushback to the Future Challenge! See the blog post written about the winners and our approach [here](https://drivendata.co/blog/airport-pushback-finalists).
