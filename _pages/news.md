@@ -7,6 +7,8 @@ author_profile: true
 
 News
 -----
+- **5/29/2024**: The research I worked on in my undergraduate lab just got published in Nature Communications! Check it out [here](https://www.nature.com/articles/s41467-024-48987-7).
+- **5/15/2024**: I started an internship at Regeneron as a Data Science Intern in the Process Sciences department. I will be working on developing pipelines using Large Language Models and computer vision.
 - **1/24/2024**: We published a review paper on Cross-Cohort Cross-Category Learning (C4) and its importance in the future of healthcare AI. Read it at Cell Patterns [here](https://www.cell.com/patterns/fulltext/S2666-3899(23)00322-7).
 - **12/11/2023**: Our team developed a curriculum for learning genomics for middle and high school students that the NIH plans on implementing at select schools across the United states, see [here](https://www.nibib.nih.gov/research-programs/BEAMS-challenge) for details.
 - **11/2/2023**: Check out the podcast episode where I talked about my research with Dr. Carina Minardi on [STEM From](https://www.stemfrom.org/podcast/episode/1d4b6552/suraj-rajendran-computational-biology-at-weill-cornell-medical-college).
