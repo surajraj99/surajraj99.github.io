@@ -7,6 +7,8 @@ author_profile: true
 
 News
 -----
+- **8/02/2024**: I finished my internship at Regeneron! Visit the post I made about it [here](https://www.linkedin.com/feed/update/urn:li:activity:7225256754576531456/).
+- **7/14/2024**: I gave a talk at the 2024 European Society of Human Reproduction and Embryology conference about our current research of developing foundational AI models for predicting embryo ploidy status using time-lapse images. Read the abstract [here](https://academic.oup.com/humrep/article/39/Supplement_1/deae108.378/7704248).
 - **5/29/2024**: The research I worked on in my undergraduate lab just got published in Nature Communications! Check it out [here](https://www.nature.com/articles/s41467-024-48987-7).
 - **5/15/2024**: I started an internship at Regeneron as a Data Science Intern in the Process Sciences department. I will be working on developing pipelines using Large Language Models and computer vision.
 - **1/24/2024**: We published a review paper on Cross-Cohort Cross-Category Learning (C4) and its importance in the future of healthcare AI. Read it at Cell Patterns [here](https://www.cell.com/patterns/fulltext/S2666-3899(23)00322-7).
