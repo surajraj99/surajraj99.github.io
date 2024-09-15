@@ -28,7 +28,7 @@ The Graduate Research Fellowship Program (GRFP) has opened numerous doors for me
 
 News
 -----
-- **9/05/2024**: Our paper on BELA, a video classification model for IVF was published in Nature Communications! Check it out [here](https://www.nature.com/articles/s41467-024-51823-7).
+- **9/05/2024**: Our paper on BELA, a video classification model for IVF, was published in Nature Communications! Check it out [here](https://www.nature.com/articles/s41467-024-51823-7).
 - **8/02/2024**: I finished my internship at Regeneron! Visit the post I made about it [here](https://www.linkedin.com/feed/update/urn:li:activity:7225256754576531456/).
 - **7/14/2024**: I gave a talk at the 2024 European Society of Human Reproduction and Embryology conference about our current research of developing foundational AI models for predicting embryo ploidy status using time-lapse images. Read the abstract [here](https://academic.oup.com/humrep/article/39/Supplement_1/deae108.378/7704248).
 - **5/29/2024**: The research I worked on in my undergraduate lab just got published in Nature Communications! Check it out [here](https://www.nature.com/articles/s41467-024-48987-7).
