@@ -7,6 +7,7 @@ author_profile: true
 
 News
 -----
+- **10/21/2024**: We got a lot of publicity for our recent Nature Communications paper on BELA! Check out the [press release](https://news.weill.cornell.edu/news/2024/10/a-fully-automated-ai-based-system-for-assessing-ivf-embryo-quality). We also got the opportunity to present our work at the 2024 American Society for Reproductive Medicine (ASRM) conference as well as the 2024 Cornell Intercampus Symposium for Maternal Health.
 - **9/05/2024**: Our paper on BELA, a video classification model for IVF, was published in Nature Communications! Check it out [here](https://www.nature.com/articles/s41467-024-51823-7).
 - **8/02/2024**: I finished my internship at Regeneron! Visit the post I made about it [here](https://www.linkedin.com/feed/update/urn:li:activity:7225256754576531456/).
 - **7/14/2024**: I gave a talk at the 2024 European Society of Human Reproduction and Embryology conference about our current research of developing foundational AI models for predicting embryo ploidy status using time-lapse images. Read the abstract [here](https://academic.oup.com/humrep/article/39/Supplement_1/deae108.378/7704248).

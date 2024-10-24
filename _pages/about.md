@@ -10,13 +10,11 @@ redirect_from:
 
 About Me
 -----
-I am a Ph.D. student in the [Tri-Institutional PhD Program in Computational Biology](https://compbio.triiprograms.org/) at Weill Cornell Medical College, specializing in computational biology and bioinformatics. My research interests include the impact of data heterogeneity in federated learning, predicting the ploidy status of embryos using deep video classification, clinical trial emulation, and deep learning in genomics. I am honored to be supported by the National Science Foundation through a Graduate Research Fellowship. Currently, I am co-mentored by [Dr. Fei Wang](https://wcm-wanglab.github.io/) and [Dr. Iman Hajirasouliha](https://physiology.med.cornell.edu/faculty/hajirasouliha/lab/).
+I am a Ph.D. student in the [Tri-Institutional PhD Program in Computational Biology](https://compbio.triiprograms.org/) at Weill Cornell Medical College, specializing in computational biology and machine learning. My research interests include exploring multimodal methods for furthering women's health and in vitro fertilization (IVF), clinical trial emulation, natural language processing and modeling in medical data, as well as deep learning in genomics. I am honored to be supported by the National Science Foundation through a Graduate Research Fellowship. Currently, I am co-mentored by [Dr. Fei Wang](https://wcm-wanglab.github.io/) and [Dr. Iman Hajirasouliha](https://physiology.med.cornell.edu/faculty/hajirasouliha/lab/).
 
-In the past, I have had the opportunity to work as a Bioinformatics Researcher at Wake Forest School of Medicine under the guidance of [Dr. Umit Topaloglu](https://datascience.cancer.gov/about/staff-directory/umit-topaloglu). My projects there included the identification of immunotherapy-related adverse events (irAEs), predicting COVID-19 diagnosis using televisits and progress notes, and federated learning using cloud computing. I also worked on detecting smoking status using natural language processing.
+In the past, I have had the opportunity to work as a Bioinformatics Researcher at Wake Forest School of Medicine under the guidance of [Dr. Umit Topaloglu](https://datascience.cancer.gov/about/staff-directory/umit-topaloglu). My projects there included the identification of immunotherapy-related adverse events (irAEs), predicting COVID-19 diagnosis using televisits and progress notes, and federated learning using cloud computing.
 
 During my undergraduate studies at Georgia Institute of Technology, I majored in Biomedical Engineering with a minor in Computing and Intelligence. I was awarded the President’s Undergraduate Research Award (PURA) Fellowship.
-
-In my free time, I enjoy exploring the latest advancements in machine learning and artificial intelligence. I am passionate about using technology to solve real-world problems and make a positive impact on society.
 
 Outreach
 -----
@@ -28,6 +26,7 @@ The Graduate Research Fellowship Program (GRFP) has opened numerous doors for me
 
 News
 -----
+- **10/21/2024**: We got a lot of publicity for our recent Nature Communications paper on BELA! Check out the [press release](https://news.weill.cornell.edu/news/2024/10/a-fully-automated-ai-based-system-for-assessing-ivf-embryo-quality). We also got the opportunity to present our work at the 2024 American Society for Reproductive Medicine (ASRM) conference as well as the 2024 Cornell Intercampus Symposium for Maternal Health.
 - **9/05/2024**: Our paper on BELA, a video classification model for IVF, was published in Nature Communications! Check it out [here](https://www.nature.com/articles/s41467-024-51823-7).
 - **8/02/2024**: I finished my internship at Regeneron! Visit the post I made about it [here](https://www.linkedin.com/feed/update/urn:li:activity:7225256754576531456/).
 - **7/14/2024**: I gave a talk at the 2024 European Society of Human Reproduction and Embryology conference about our current research of developing foundational AI models for predicting embryo ploidy status using time-lapse images. Read the abstract [here](https://academic.oup.com/humrep/article/39/Supplement_1/deae108.378/7704248).
@@ -38,8 +37,6 @@ News
 - **11/2/2023**: Check out the podcast episode where I talked about my research with Dr. Carina Minardi on [STEM From](https://www.stemfrom.org/podcast/episode/1d4b6552/suraj-rajendran-computational-biology-at-weill-cornell-medical-college).
 - **10/25/2023**: I gave a talk at Instituto de Salud Carlos III in Dr. Biagio Mandracchia's Introduction to Biomedical AI course. I talked about the burgeoning field of Cross-Cohort Cross-Category Learning (C4) and its applications in healthcare.
 - **9/19/2023**: Our team placed 3rd in NASA's Pushback to the Future Challenge! See the blog post written about the winners and our approach [here](https://drivendata.co/blog/airport-pushback-finalists).
-- **6/27/2023**: Gave a talk at European Society of Human Reproduction and Embryology (ESHRE 2023) on "[Predicting Embryo Ploidy Status Using Time-lapse Images](https://academic.oup.com/humrep/article/38/Supplement_1/dead093.147/7203204)". Our abstract was published in Human Reproduction.
-
 
 
 <!-- Create content & metadata
