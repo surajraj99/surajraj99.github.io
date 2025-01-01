@@ -1,0 +1,68 @@
+---
+layout: archive
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.locale }}">
+<head>
+  {% include head.html %}
+</head>
+<body>
+
+  <main>
+    <section class="publications-page">
+      <p>{{ page.description }}</p>
+      
+      {% if author.googlescholar %}
+        <p>You can also find my articles on <a href="{{ author.googlescholar }}" target="_blank" rel="noopener noreferrer">my Google Scholar profile</a>.</p>
+      {% endif %}
+      
+      <div class="publications-container">
+        {% for post in site.publications reversed %}
+          <div class="publication-card">
+            <h2 class="publication-title">
+              {% if post.link %}
+                <a href="{{ post.link }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+              {% else %}
+                {{ post.title }}
+              {% endif %}
+            </h2>
+            
+            <p class="publication-details">
+              <strong>Published in:</strong> <i>{{ post.venue }}</i> |
+              <strong>Date:</strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            </p>
+            
+            {% if post.content %}
+              <p class="publication-abstract">
+                {{ post.content | markdownify }}
+              </p>
+            {% endif %}
+            
+            {% if post.citation %}
+              <p class="publication-citation"><strong>Citation:</strong> {{ post.citation }}</p>
+            {% endif %}
+            
+            {% if post.paperurl or post.doi %}
+              <p class="publication-links">
+                {% if post.paperurl %}
+                  <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">Read Here</a>
+                {% endif %}
+                {% if post.doi %}
+                  {% if post.paperurl %}
+                    | 
+                  {% endif %}
+                  <a href="https://doi.org/{{ post.doi }}" target="_blank" rel="noopener noreferrer">DOI</a>
+                {% endif %}
+              </p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+  </main>
+    
+  <!-- Include any necessary JavaScript files -->
+  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+- date: 2024-11-13
+  title: "Presented at AMIA Annual Symposium"
+  category: "Presentations"
+  description: "I presented our work looking at using NLP to enhance trial emulation at the 2024 American Medical Informatics Association (AMIA) Annual Symposium."
+
+- date: 2024-10-21
+  title: "Featured in Nature Communications Paper on BELA"
+  category: "Publications"
+  description: "We received significant publicity for our recent Nature Communications paper on BELA! Check out the press release and our presentations at the 2024 American Society for Reproductive Medicine (ASRM) conference and the 2024 Cornell Intercampus Symposium for Maternal Health."
+  links:
+    - url: "https://news.weill.cornell.edu/news/2024/10/a-fully-automated-ai-based-system-for-assessing-ivf-embryo-quality"
+      text: "Press Release"
+
+- date: 2024-09-05
+  title: "Published Paper on BELA in Nature Communications"
+  category: "Publications"
+  description: "Our paper on BELA, a video classification model for IVF, was published in Nature Communications! Explore the details [here](https://www.nature.com/articles/s41467-024-51823-7)."
+  links:
+    - url: "https://www.nature.com/articles/s41467-024-51823-7"
+      text: "Read the Paper"
+
+- date: 2024-08-02
+  title: "Completed Internship at Regeneron"
+  category: "Internships & Positions"
+  description: "I finished my internship at Regeneron! Visit the post I made about it [here](https://www.linkedin.com/feed/update/urn:li:activity:7225256754576531456/)."
+  links:
+    - url: "https://www.linkedin.com/feed/update/urn:li:activity:7225256754576531456/"
+      text: "LinkedIn Post"
+
+- date: 2024-07-14
+  title: "Talk at ESHRE Conference on AI Models for Embryo Ploidy"
+  category: "Presentations"
+  description: "I gave a talk at the 2024 European Society of Human Reproduction and Embryology conference about our research on developing foundational AI models for predicting embryo ploidy status using time-lapse images. Read the abstract [here](https://academic.oup.com/humrep/article/39/Supplement_1/deae108.378/7704248)."
+  links:
+    - url: "https://academic.oup.com/humrep/article/39/Supplement_1/deae108.378/7704248"
+      text: "Read Abstract"
+
+- date: 2024-05-29
+  title: "Undergraduate Lab Research Published in Nature Communications"
+  category: "Publications"
+  description: "The research I worked on in my undergraduate lab was published in Nature Communications! Check it out [here](https://www.nature.com/articles/s41467-024-48987-7)."
+  links:
+    - url: "https://www.nature.com/articles/s41467-024-48987-7"
+      text: "Read the Paper"
+
+- date: 2024-05-15
+  title: "Started Data Science Internship at Regeneron"
+  category: "Internships & Positions"
+  description: "I started an internship at Regeneron as a Data Science Intern in the Process Sciences department. I will be working on developing pipelines using Large Language Models and computer vision."
+
+- date: 2024-01-24
+  title: "Published Review Paper on Cross-Cohort Cross-Category Learning (C4)"
+  category: "Publications"
+  description: "We published a review paper on Cross-Cohort Cross-Category Learning (C4) and its importance in the future of healthcare AI. Read it at Cell Patterns [here](https://www.cell.com/patterns/fulltext/S2666-3899(23)00322-7)."
+  links:
+    - url: "https://www.cell.com/patterns/fulltext/S2666-3899(23)00322-7"
+      text: "Read the Paper"
+
+- date: 2023-12-11
+  title: "Developed Genomics Curriculum for Middle and High Schools"
+  category: "Projects"
+  description: "Our team developed a curriculum for learning genomics for middle and high school students that the NIH plans to implement at select schools across the United States. See [here](https://www.nibib.nih.gov/research-programs/BEAMS-challenge) for details."
+  links:
+    - url: "https://www.nibib.nih.gov/research-programs/BEAMS-challenge"
+      text: "Project Details"
+
+- date: 2023-11-02
+  title: "Featured on STEM From Podcast"
+  category: "Media & Publicity"
+  description: "Check out the podcast episode where I discussed my research with Dr. Carina Minardi on [STEM From](https://www.stemfrom.org/podcast/episode/1d4b6552/suraj-rajendran-computational-biology-at-weill-cornell-medical-college)."
+  links:
+    - url: "https://www.stemfrom.org/podcast/episode/1d4b6552/suraj-rajendran-computational-biology-at-weill-cornell-medical-college"
+      text: "Listen to the Episode"
+
+- date: 2023-10-25
+  title: "Talk at Instituto de Salud Carlos III on C4 in Healthcare"
+  category: "Presentations"
+  description: "I gave a talk at Instituto de Salud Carlos III in Dr. Biagio Mandracchia's Introduction to Biomedical AI course, discussing the burgeoning field of Cross-Cohort Cross-Category Learning (C4) and its applications in healthcare."
+
+- date: 2023-09-19
+  title: "3rd Place in NASA's Pushback to the Future Challenge"
+  category: "Awards & Recognitions"
+  description: "Our team placed 3rd in NASA's Pushback to the Future Challenge! See the blog post about the winners and our approach [here](https://drivendata.co/blog/airport-pushback-finalists)."
+  links:
+    - url: "https://drivendata.co/blog/airport-pushback-finalists"
+      text: "Read the Blog Post"
+
+- date: 2023-06-27
+  title: "Talk at ESHRE 2023 on Predicting Embryo Ploidy Status"
+  category: "Presentations"
+  description: "Gave a talk at the European Society of Human Reproduction and Embryology (ESHRE 2023) on '[Predicting Embryo Ploidy Status Using Time-lapse Images](https://academic.oup.com/humrep/article/38/Supplement_1/dead093.147/7203204)'. Our abstract was published in Human Reproduction."
+  links:
+    - url: "https://academic.oup.com/humrep/article/38/Supplement_1/dead093.147/7203204"
+      text: "Read the Abstract"
+
+- date: 2023-05-30
+  title: "Published Study on Social Networks and Adverse Childhood Experiences"
+  category: "Publications"
+  description: "Our paper, '[Web-Based Social Networks of Individuals With Adverse Childhood Experiences: Quantitative Study](https://pubmed.ncbi.nlm.nih.gov/37252791/)', was published in the Journal of Medical Internet Research."
+  links:
+    - url: "https://pubmed.ncbi.nlm.nih.gov/37252791/"
+      text: "Read the Paper"
+
+- date: 2023-04-10
+  title: "Quarterfinalists in ARPA-H Dash to Accelerate Health Outcomes"
+  category: "Awards & Recognitions"
+  description: "Our team were quarterfinalists in the Advanced Research Projects Agency for Health (ARPA-H) Dash to Accelerate Health Outcomes with our idea for a Bionic Pancreas system for diabetes monitoring."
+
+- date: 2023-03-21
+  title: "Published Paper on Integrative Biomedical Knowledge Hub (iBKH)"
+  category: "Publications"
+  description: "Our paper, '[Biomedical Discovery through the integrative Biomedical Knowledge Hub (iBKH)](https://pubmed.ncbi.nlm.nih.gov/37020958/)', was published in iScience."
+  links:
+    - url: "https://pubmed.ncbi.nlm.nih.gov/37020958/"
+      text: "Read the Paper"
+
+- date: 2023-03-15
+  title: "Published Study on Data Heterogeneity in Federated Learning"
+  category: "Publications"
+  description: "We published '[Data heterogeneity in federated learning with Electronic Health Records: Case studies of risk prediction for acute kidney injury and sepsis diseases in critical care](https://pubmed.ncbi.nlm.nih.gov/36920974/)' in PLOS Digital Health."
+  links:
+    - url: "https://pubmed.ncbi.nlm.nih.gov/36920974/"
+      text: "Read the Paper"
+
+- date: 2023-03-11
+  title: "Finalist in UTSW Case Competition with Pterostilbene Proposal"
+  category: "Awards & Recognitions"
+  description: "Our team placed in the finals for the [University of Texas Southwestern (UTSW) Case Competition](https://www.linkedin.com/posts/consulting-club-at-ut-southwestern_healthcare-consulting-casecompetition-activity-7040844425035452416-CVBz?utm_source=share&utm_medium=member_desktop), proposing the development of Pterostilbene as a synthetic compound."
+  links:
+    - url: "https://www.linkedin.com/posts/consulting-club-at-ut-southwestern_healthcare-consulting-casecompetition-activity-7040844425035452416-CVBz?utm_source=share&utm_medium=member_desktop"
+      text: "Competition Details"
+
+- date: 2023-02-15
+  title: "Won HHS Giving=Living Blood & Plasma Innovation Challenge"
+  category: "Awards & Recognitions"
+  description: "Led a team that won the US Dept. of HHS Giving=Living Blood & Plasma Innovation Challenge. Our proposal, 'Giving=Living', aimed at promoting blood donations to address shortages."
+
+- date: 2023-02-04
+  title: "Guest Lecture at Cornell Tech on Federated Learning"
+  category: "Presentations"
+  description: "Gave a guest lecture for Cornell Tech's INFO 5375: Health Tech Oriented Machine Learning on aspects of federated learning in the presence of data heterogeneity."
+
+- date: 2023-01-04
+  title: "Published AI Models for Predicting Human Blastocyst Ploidy in Lancet Digital Health"
+  category: "Publications"
+  description: "Our paper, '[Development of non-invasive artificial intelligence models for the prediction of human blastocyst ploidy](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00213-8/fulltext)', was published in Lancet Digital Health."
+  links:
+    - url: "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00213-8/fulltext"
+      text: "Read the Paper"
+
+- date: 2022-11-05
+  title: "Finalist at Penn Healthcare Case Competition with Bispecific Antibody Therapy Plan"
+  category: "Awards & Recognitions"
+  description: "Worked with a team of graduate students to create plans for marketing a bispecific antibody therapy for multiple myeloma. Placed as Finalists at the Penn Healthcare Case Competition."

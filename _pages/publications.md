@@ -1,16 +1,16 @@
 ---
-layout: archive
+layout: publications
 title: "Publications"
 permalink: /publications/
 author_profile: true
+description: "A comprehensive list of my research publications in computational biology and machine learning."
 ---
-
+  
 {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+  You can also find my articles on <a href="{{ author.googlescholar }}" target="_blank" rel="noopener noreferrer">my Google Scholar profile</a>.
 {% endif %}
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="publications-container">
+  {% for post in site.publications reversed %}
+  {% endfor %}
+</div>
