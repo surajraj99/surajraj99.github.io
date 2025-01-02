@@ -42,96 +42,321 @@
 
 /* Publication Card Styling */
 .publication-card {
-    background-color: #ffffff;
-    border: 1px solid #eaeaea;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-  }
-  
-  .publication-card:hover {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transform: translateY(-2px);
-  }
-  
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.publication-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.publication-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #1e90ff;
+}
+
+.publication-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.publication-title a:hover {
+  text-decoration: underline;
+}
+
+.publication-details {
+  font-size: 0.95em;
+  color: #555555;
+  margin-bottom: 15px;
+}
+
+.publication-abstract {
+  font-size: 1em;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.publication-citation {
+  font-size: 0.9em;
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.publication-links a {
+  color: #1e90ff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 0.95em;
+}
+
+.publication-links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .publication-title {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: #1e90ff;
+    font-size: 1.3em;
   }
   
-  .publication-title a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .publication-title a:hover {
-    text-decoration: underline;
-  }
-  
-  .publication-details {
-    font-size: 0.95em;
-    color: #555555;
-    margin-bottom: 15px;
-  }
-  
-  .publication-abstract {
-    font-size: 1em;
-    color: #333333;
-    margin-bottom: 15px;
-  }
-  
-  .publication-citation {
-    font-size: 0.9em;
-    color: #666666;
-    margin-bottom: 10px;
-  }
-  
+  .publication-details,
+  .publication-abstract,
+  .publication-citation,
   .publication-links a {
-    color: #1e90ff;
-    text-decoration: none;
-    margin-right: 15px;
     font-size: 0.95em;
   }
-  
-  .publication-links a:hover {
-    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .publication-title {
+    font-size: 1.1em;
   }
   
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .publication-title {
-      font-size: 1.3em;
-    }
-    
-    .publication-details,
-    .publication-abstract,
-    .publication-citation,
-    .publication-links a {
-      font-size: 0.95em;
-    }
+  .publication-details,
+  .publication-abstract,
+  .publication-citation,
+  .publication-links a {
+    font-size: 0.9em;
+  }
+}
+
+/* Publications Container */
+.publications-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+/* Talk Card Styling */
+.talk-card {
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.talk-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.talk-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #1e90ff;
+}
+
+.talk-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.talk-title a:hover {
+  text-decoration: underline;
+}
+
+.talk-details {
+  font-size: 0.95em;
+  color: #555555;
+  margin-bottom: 15px;
+}
+
+.talk-description {
+  font-size: 1em;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.talk-link a {
+  color: #1e90ff;
+  text-decoration: none;
+  font-size: 0.95em;
+}
+
+.talk-link a:hover {
+  text-decoration: underline;
+}
+
+/* Talks Container */
+.publications-container, .talks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .talk-title {
+    font-size: 1.3em;
   }
   
-  @media (max-width: 480px) {
-    .publication-title {
-      font-size: 1.1em;
-    }
-    
-    .publication-details,
-    .publication-abstract,
-    .publication-citation,
-    .publication-links a {
-      font-size: 0.9em;
-    }
+  .talk-details,
+  .talk-description,
+  .talk-link a {
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 480px) {
+  .talk-title {
+    font-size: 1.1em;
   }
   
-  /* Publications Container */
-  .publications-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
+  .talk-details,
+  .talk-description,
+  .talk-link a {
+    font-size: 0.9em;
+  }
+}
+
+/* CV Page Styling */
+.cv-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.cv-download {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn-download {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #1e90ff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+  background-color: #0d6efd;
+}
+
+.cv-section {
+  margin-bottom: 40px;
+}
+
+.cv-section h2 {
+  border-bottom: 2px solid #1e90ff;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  color: #1e90ff;
+}
+
+.cv-card {
+  background-color: #f9f9f9;
+  border-left: 4px solid #1e90ff;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.cv-card h3 {
+  margin-top: 0;
+  color: #333333;
+}
+
+.cv-card p {
+  margin: 5px 0;
+  color: #555555;
+}
+
+.cv-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555555;
+}
+
+.cv-skills {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cv-skills li {
+  background-color: #f1f1f1;
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 0.95em;
+  color: #333333;
+}
+
+.cv-pdf-embed {
+  margin-top: 50px;
+}
+
+.cv-pdf-embed iframe {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+
+/* Footer Styling */
+.site-footer {
+  background-color: #f8f8f8;
+  border-top: 1px solid #eaeaea;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.site-footer p {
+  margin: 0;
+  color: #555555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cv-container {
+    padding: 20px 10px;
   }
   
+  .btn-download {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+  
+  .cv-section h2 {
+    font-size: 1.5em;
+  }
+  
+  .cv-card {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cv-container {
+    padding: 10px 5px;
+  }
+  
+  .btn-download {
+    font-size: 0.95em;
+    padding: 8px 16px;
+  }
+  
+  .cv-section h2 {
+    font-size: 1.3em;
+  }
+  
+  .cv-card {
+    padding: 8px 10px;
+  }
+}
