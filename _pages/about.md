@@ -26,7 +26,7 @@ The Graduate Research Fellowship Program (GRFP) has opened numerous doors for me
 
 Latest News
 -----
-- **11/13/2024**: I presented our work looking at using NLP to enhance trial emulation at the 2024 American Medical Informatics Association (AMIA) Annual Symposium.
+- **12/12/2024**: NVIDIA wrote an article on our recent Nature Communications paper on BELA! Read it [here](hhttps://developer.nvidia.com/blog/time-lapse-ai-model-enhances-ivf-embryo-selection/?ncid=so-link-755419&linkId=100000318418892).
 - **10/21/2024**: We got a lot of publicity for our recent Nature Communications paper on BELA! Check out the [press release](https://news.weill.cornell.edu/news/2024/10/a-fully-automated-ai-based-system-for-assessing-ivf-embryo-quality). We also got the opportunity to present our work at the 2024 American Society for Reproductive Medicine (ASRM) conference as well as the 2024 Cornell Intercampus Symposium for Maternal Health.
 - **9/05/2024**: Our paper on BELA, a video classification model for IVF, was published in Nature Communications! Check it out [here](https://www.nature.com/articles/s41467-024-51823-7).
 

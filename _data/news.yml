@@ -1,3 +1,19 @@
+- date: 2024-12-12
+  title: "NVIDIA Wrote an Article on BELA"
+  category: "Media & Publicity"
+  description: "NVIDIA wrote an article on our recent Nature Communications paper on BELA!"
+  links:
+    - url: "https://developer.nvidia.com/blog/time-lapse-ai-model-enhances-ivf-embryo-selection/?ncid=so-link-755419&linkId=100000318418892"
+      text: "Read the Article"
+
+- date: 2024-11-25
+  title: "Wrote an Article for Natural Selections"
+  category: "Media & Publicity"
+  description: "I wrote an article for the Rockefeller University's magazine, Natural Selections, about the importance and concerns around foundation models in medicine."
+  links:
+    - url: "https://selections.rockefeller.edu/foundation-models-in-medicine-revolution-or-hype/"
+      text: "Read the Article"
+
 - date: 2024-11-13
   title: "Presented at AMIA Annual Symposium"
   category: "Presentations"
@@ -5,7 +21,7 @@
 
 - date: 2024-10-21
   title: "Featured in Nature Communications Paper on BELA"
-  category: "Publications"
+  category: "Media & Publicity"
   description: "We received significant publicity for our recent Nature Communications paper on BELA! Check out the press release and our presentations at the 2024 American Society for Reproductive Medicine (ASRM) conference and the 2024 Cornell Intercampus Symposium for Maternal Health."
   links:
     - url: "https://news.weill.cornell.edu/news/2024/10/a-fully-automated-ai-based-system-for-assessing-ivf-embryo-quality"
