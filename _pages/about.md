@@ -26,6 +26,10 @@ The Graduate Research Fellowship Program (GRFP) has opened numerous doors for me
 
 Latest News
 -----
+- **7/11/2025**: A project I'm very proud of, where we developed a foundation model for IVF is out in Nature Communications! Check it out [here](https://www.nature.com/articles/s41467-025-61116-2).
+- **7/1/2025**: Our paper exploring the integration of federated learning with trial emulation was published in npj Digital Medicine! Check it out [here](https://www.nature.com/articles/s41746-025-01803-y).
+- **5/13/2025**: We explored the effect of steroids and subphenotypes of sepsis. Our results were publisehd in Nature Communications! Check it out [here](https://www.nature.com/articles/s41467-025-59643-z).
+- **4/20/2025**: Out paper TrialGenie on automating clinical trial design and emulation with agents was just put on medRxiv! Check it out [here](https://www.medrxiv.org/content/10.1101/2025.04.17.25326033v1).
 - **12/12/2024**: NVIDIA wrote an article on our recent Nature Communications paper on BELA! Read it [here](hhttps://developer.nvidia.com/blog/time-lapse-ai-model-enhances-ivf-embryo-selection/?ncid=so-link-755419&linkId=100000318418892).
 - **10/21/2024**: We got a lot of publicity for our recent Nature Communications paper on BELA! Check out the [press release](https://news.weill.cornell.edu/news/2024/10/a-fully-automated-ai-based-system-for-assessing-ivf-embryo-quality). We also got the opportunity to present our work at the 2024 American Society for Reproductive Medicine (ASRM) conference as well as the 2024 Cornell Intercampus Symposium for Maternal Health.
 - **9/05/2024**: Our paper on BELA, a video classification model for IVF, was published in Nature Communications! Check it out [here](https://www.nature.com/articles/s41467-024-51823-7).
