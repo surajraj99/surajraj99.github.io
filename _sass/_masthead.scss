@@ -3,51 +3,114 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  background-color: $background-color;
   border-bottom: 1px solid $border-color;
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
-  -webkit-animation-delay: 0.15s;
-          animation-delay: 0.15s;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  transition: $global-transition;
   z-index: 20;
 
-  &__inner-wrap {
-    @include container;
-    @include clearfix;
-    padding: 1em 1em 1em;
-    font-family: $sans-serif-narrow;
+  &__inner {
+    @include clearfix();
+    @include container($large);
+    padding: 0.75em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    @include breakpoint($x-large) {
-      max-width: $x-large;
+    @include breakpoint($large) {
+      padding: 1.25em 2em;
     }
+  }
 
-    nav {
-      z-index: 10;
-    }
+  &__menu {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      display: flex;
+      gap: 1.5em;
 
-    a {
-      text-decoration: none;
+      li {
+        a {
+          text-decoration: none;
+          color: $masthead-link-color;
+          font-family: $header-font-family;
+          font-weight: 500;
+          font-size: $type-size-5;
+          transition: $global-transition;
+          position: relative;
+
+          &:after {
+            content: "";
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: $primary-color;
+            transition: $global-transition;
+          }
+
+          &:hover {
+            color: $primary-color;
+
+            &:after {
+              width: 100%;
+            }
+          }
+        }
+
+        &.active {
+          a {
+            color: $primary-color;
+            font-weight: 600;
+
+            &:after {
+              width: 100%;
+            }
+          }
+        }
+      }
     }
   }
 }
 
-.masthead__menu {
+.site-title {
+  font-family: $header-font-family;
+  font-weight: 700;
+  font-size: $type-size-4;
+  color: $darker-gray;
+  text-decoration: none;
+  transition: $global-transition;
 
-  ul {
-    margin: 0;
-    padding: 0;
-    clear: both;
-    list-style-type: none;
+  &:hover {
+    color: $primary-color;
   }
 }
 
 .masthead__menu-item {
   display: block;
   list-style-type: none;
-  white-space: nowrap;
 
-  &--lg {
-    padding-right: 2em;
-    font-weight: 700;
+  @include breakpoint($large) {
+    display: inline-block;
+    margin-right: 2em;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  a {
+    display: block;
+    padding: 0.5em 0;
+    text-decoration: none;
+    color: $masthead-link-color;
+    font-weight: 500;
+    transition: $global-transition;
+
+    &:hover {
+      color: $primary-color;
+    }
   }
 }

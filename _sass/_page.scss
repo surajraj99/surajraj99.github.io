@@ -73,13 +73,15 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
+    color: $primary-color;
+    transition: $global-transition;
 
     &:hover {
       text-decoration: underline;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: $box-shadow-hover;
       }
     }
   }
@@ -295,8 +297,10 @@
 }
 
 .page__comments-form {
-  padding: 1em;
-  background: $lighter-gray;
+  padding: 1.5em;
+  background: $lightest-gray;
+  border-radius: $border-radius;
+  border: 1px solid $border-color;
   transition: $global-transition;
 
   &.disabled {
