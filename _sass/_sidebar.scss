@@ -10,7 +10,7 @@
   @include breakpoint($large) {
     @include span(2.5 of 12);
     position: sticky;
-    top: 2em;
+    top: 1.5em; // Reduced from 2em
   }
 
   h2, h3, h4, h5, h6 {
@@ -21,8 +21,8 @@
 
   p, li {
     font-family: $global-font-family;
-    font-size: $type-size-6;
-    line-height: 1.6;
+    font-size: $type-size-7; // Reduced from 6 for better proportion
+    line-height: 1.5;
     color: $text-color;
   }
 }
@@ -30,24 +30,19 @@
 .author__avatar {
   display: flex;
   justify-content: center;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em; // Reduced from 1.5em
 
   @include breakpoint($large) {
     display: block;
   }
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 80px; // Reduced from 100px
+    height: 80px;
     border-radius: 50%;
     border: 3px solid #fff;
     box-shadow: $box-shadow;
     transition: $global-transition;
-
-    &:hover {
-      transform: translateY(-5px);
-      box-shadow: $box-shadow-hover;
-    }
 
     @include breakpoint($large) {
       width: 100%;
@@ -59,7 +54,7 @@
 
 .author__content {
   text-align: center;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em; // Reduced from 1.5em
 
   @include breakpoint($large) {
     text-align: left;
@@ -71,13 +66,14 @@
     font-size: $type-size-4;
     font-weight: 700;
     color: $darker-gray;
-    line-height: 1.2;
+    line-height: 1.1;
   }
 
   .author__bio {
-    margin-top: 0.5em;
-    font-size: $type-size-6;
+    margin-top: 0.25em; // Reduced from 0.5em
+    font-size: $type-size-7; // Reduced from 6
     color: $gray;
+    line-height: 1.4;
   }
 }
 
