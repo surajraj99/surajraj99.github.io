@@ -20,9 +20,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
 I am a Ph.D. student in the [Tri-Institutional PhD Program in Computational Biology](https://compbio.triiprograms.org/) at Weill Cornell Medical College, specializing in computational biology and machine learning. My research interests include exploring multimodal methods for furthering women's health and in vitro fertilization (IVF), clinical trial emulation, natural language processing and modeling in medical data, and deep learning in genomics. 
