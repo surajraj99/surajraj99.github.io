@@ -67,7 +67,32 @@ layout: default
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
+        <div class="contact-icons">
+          {% if site.data.socials.email %}
+            <a href="mailto:{{ site.data.socials.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
+          {% endif %}
+          {% if site.data.socials.scholar_userid %}
+            <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          {% endif %}
+          {% if site.data.socials.pubmed_id %}
+            <a href="https://pubmed.ncbi.nlm.nih.gov/?term={{ site.data.socials.pubmed_id }}" title="PubMed"><i class="ai ai-pubmed"></i></a>
+          {% endif %}
+          {% if site.data.socials.orcid_id %}
+            <a href="https://orcid.org/{{ site.data.socials.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
+          {% endif %}
+          {% if site.data.socials.linkedin_username %}
+            <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          {% endif %}
+          {% if site.data.socials.twitter_username %}
+            <a href="https://twitter.com/{{ site.data.socials.twitter_username }}" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          {% endif %}
+          {% if site.data.socials.github_username %}
+            <a href="https://github.com/{{ site.data.socials.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          {% endif %}
+          {% if site.data.socials.rss_icon %}
+            <a href="{{ '/feed.xml' | relative_url }}" title="RSS Feed"><i class="fa-solid fa-rss"></i></a>
+          {% endif %}
+        </div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
