@@ -10,54 +10,73 @@
   type: time_table
   contents:
     - title: Ph.D. in Computational Biology
-      institution: Weill Cornell Medicine, New York, NY
-      year: 2023 - Present
+      institution: Weill Cornell Medical College, New York, NY
+      year: 2023 - Present (Expected June 2026)
       description:
         - Tri-Institutional PhD Program in Computational Biology.
         - Co-mentored by Dr. Fei Wang and Dr. Iman Hajirasouliha.
     - title: B.S. in Biomedical Engineering
       institution: Georgia Institute of Technology, Atlanta, GA
-      year: 2018 - 2022
+      year: 2018 - 2021
       description:
+        - GPA 3.96/4.0.
         - Minor in Computing and Intelligence.
         - President’s Undergraduate Research Award (PURA) Fellow.
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Data Science Intern
-      institution: Regeneron, Tarrytown, NY
-      year: Summer 2024
+    - title: Graduate Researcher
+      institution: Weill Cornell Medical College
+      year: Aug 2021 - Present
       description:
-        - Process Sciences department.
-        - Developed pipelines using Large Language Models and computer vision.
+        - Engineered foundation models for predictive embryology in IVF procedures.
+        - Developed structural variant detection methods for short-read cancer data.
+        - Conducted research on data heterogeneity in federated learning and other ML applications.
     - title: Bioinformatics Researcher
       institution: Wake Forest School of Medicine
-      year: 2022 - 2023
+      year: May 2019 - Sep 2021
       description:
-        - Worked under Dr. Umit Topaloglu.
-        - Projects included irAE identification, COVID-19 diagnosis prediction, and federated learning.
+        - Performed privacy-preserving methods through holographic transformations.
+        - Developed models to predict immunotherapy-related adverse events.
+        - Preprocessed and cleaned large datasets for NLP pipelines.
+
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Data Scientist Intern
+      institution: Regeneron, Tarrytown, NY
+      year: May 2024 - Aug 2024
+      description:
+        - Reduced text processing time by 95% using NLP and LLMs.
+        - Implemented analytics and data visualization tools to transform data into actionable insights.
+    - title: R&D Bioinformatics Intern
+      institution: Colgate-Palmolive
+      year: June 2021 - Aug 2021
+      description:
+        - Developed NLP pipelines for veterinary note standardization and search.
+        - Constructed an LSTM model for early renal disease prediction.
 
 - title: Honors and Awards
   type: time_table
   contents:
     - title: Graduate Research Fellowship (GRFP)
       institution: National Science Foundation
-      year: 2023
-    - title: 3rd Place - Pushback to the Future Challenge
-      institution: NASA
-      year: 2023
-    - title: Winner - Giving=Living Blood & Plasma Innovation Challenge
-      institution: US Dept. of Health & Human Services
-      year: 2023
+      year: 2023 - 2026
+    - title: BEAMS Challenge Winner
+      institution: NIH
+      year: Dec 2023
+    - title: 1st Place - Detecting Emerging Threats Challenge
+      institution: CDC & NASA
+      year: Jan 2022
     - title: President’s Undergraduate Research Award (PURA)
       institution: Georgia Institute of Technology
       year: 2021
 
-- title: Mentorship & Outreach
+- title: Skills
   type: list
   contents:
-    - Mentoring underprivileged high school students through the college application process at **IMentor** (since 2023).
-    - Research Mentor for students exploring machine learning in healthcare at **Lumiere Education**.
-    - Led a winning proposal for the HHS **"Giving=Living"** campaign to promote blood donations.
-    - Led a team at Georgia Tech that proposed policy changes for academic recognition for students with disabilities.
+    - **Machine Learning & AI:** Deep Learning, NLP, LLMs, Computer Vision.
+    - **Programming:** Python, R, MATLAB, SQL.
+    - **Genomics:** Structural Variant Calling, Short-read Cancer Data Analysis.
+    - **Tools:** Data Visualization, Statistical Modeling.
