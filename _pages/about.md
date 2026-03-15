@@ -2,6 +2,8 @@
 layout: about
 title: about
 permalink: /
+nav: true
+nav_order: 1
 subtitle: <a href='https://compbio.triiprograms.org/'>Computational Biology PhD Student</a> @ Weill Cornell Medicine
 
 profile:
