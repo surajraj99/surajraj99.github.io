@@ -27,7 +27,8 @@ I recently defended my Ph.D. in the [Tri-Institutional PhD Program in Computatio
 
 I am honored to be supported by the National Science Foundation through a Graduate Research Fellowship. Currently, I am co-mentored by [Dr. Fei Wang](https://wcm-wanglab.github.io/) and [Dr. Iman Hajirasouliha](https://physiology.med.cornell.edu/faculty/hajirasouliha/lab/).
 
-#### Experience & Education
+#### Education
+*   **Ph.D. Computational Biology**, Weill Cornell Medicine.
 *   **B.S. Biomedical Engineering**, Georgia Institute of Technology. Minor in Computing and Intelligence. President’s Undergraduate Research Award (PURA) Fellow.
 
 #### Outreach
