@@ -1,0 +1,125 @@
+---
+import Base from "../layouts/Base.astro";
+import PublicationCard from "../components/PublicationCard.astro";
+import { getCollection } from "astro:content";
+
+const pubs = (await getCollection("publications")).sort(
+  (a, b) => b.data.year - a.data.year,
+);
+
+const years = Array.from(new Set(pubs.map((p) => p.data.year))).sort(
+  (a, b) => b - a,
+);
+
+const groupedByYear = years.map((y) => ({
+  year: y,
+  items: pubs.filter((p) => p.data.year === y),
+}));
+---
+
+<Base
+  title="Publications — Suraj Rajendran"
+  description="Peer-reviewed and preprint publications by Suraj Rajendran."
+>
+  <section class="bg-ink-900 text-white">
+    <div class="container-tight py-16 md:py-20">
+      <p class="text-sm font-semibold uppercase tracking-[0.18em] text-cyan-500">
+        Publications
+      </p>
+      <h1 class="mt-3 text-4xl md:text-5xl font-bold tracking-tightish">
+        Peer-reviewed papers & preprints.
+      </h1>
+      <p class="mt-4 text-base md:text-lg text-slate-300 max-w-2xl">
+        Foundation models for IVF, federated learning for clinical trial
+        emulation, NLP for medical data — and adjacent work.
+      </p>
+    </div>
+  </section>
+
+  <section class="bg-bg-soft">
+    <div class="container-tight py-12">
+      <!-- Filter bar -->
+      <div
+        id="filter-bar"
+        class="flex flex-wrap items-center gap-2"
+        data-active="all"
+      >
+        <button
+          type="button"
+          data-year="all"
+          class="filter-btn active rounded-full border border-brand-500 bg-brand-500 px-4 py-1.5 text-sm font-semibold text-white shadow-sm transition-colors"
+        >
+          All
+        </button>
+        {years.map((y) => (
+          <button
+            type="button"
+            data-year={String(y)}
+            class="filter-btn rounded-full border border-line bg-white px-4 py-1.5 text-sm font-semibold text-ink-700 hover:border-brand-500 hover:text-brand-500 transition-colors"
+          >
+            {y}
+          </button>
+        ))}
+      </div>
+
+      <!-- Grouped by year -->
+      <div class="mt-10 space-y-12">
+        {groupedByYear.map((group) => (
+          <div data-year-group={String(group.year)}>
+            <h2 class="text-2xl md:text-3xl font-bold text-ink-900 tracking-tightish">
+              {group.year}
+            </h2>
+            <div class="mt-5 grid gap-5 md:grid-cols-2">
+              {group.items.map((p) => (
+                <PublicationCard
+                  title={p.data.title}
+                  authors={p.data.authors}
+                  venue={p.data.venue}
+                  year={p.data.year}
+                  doi={p.data.doi}
+                  pdf={p.data.pdf}
+                  html={p.data.html}
+                  featured={p.data.featured}
+                />
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const bar = document.getElementById("filter-bar");
+    const buttons = bar?.querySelectorAll<HTMLButtonElement>(".filter-btn");
+    const groups = document.querySelectorAll<HTMLElement>("[data-year-group]");
+    const cards = document.querySelectorAll<HTMLElement>("[data-year]");
+
+    function setActive(year: string) {
+      buttons?.forEach((b) => {
+        const isActive = b.dataset.year === year;
+        b.classList.toggle("bg-brand-500", isActive);
+        b.classList.toggle("text-white", isActive);
+        b.classList.toggle("border-brand-500", isActive);
+        b.classList.toggle("bg-white", !isActive);
+        b.classList.toggle("text-ink-700", !isActive);
+        b.classList.toggle("border-line", !isActive);
+      });
+
+      cards.forEach((card) => {
+        if (!card.hasAttribute("data-year-group")) {
+          const y = card.dataset.year;
+          card.classList.toggle("hidden", year !== "all" && y !== year);
+        }
+      });
+      groups.forEach((g) => {
+        const y = g.dataset.yearGroup;
+        g.classList.toggle("hidden", year !== "all" && y !== year);
+      });
+    }
+
+    buttons?.forEach((b) =>
+      b.addEventListener("click", () => setActive(b.dataset.year || "all")),
+    );
+  </script>
+</Base>

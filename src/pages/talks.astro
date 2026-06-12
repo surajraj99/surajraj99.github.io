@@ -1,0 +1,63 @@
+---
+import Base from "../layouts/Base.astro";
+import TalkCard from "../components/TalkCard.astro";
+import { getCollection, render } from "astro:content";
+
+const talks = (await getCollection("talks")).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime(),
+);
+
+const rendered = await Promise.all(
+  talks.map(async (entry) => {
+    const { Content } = await render(entry);
+    return { entry, Content };
+  }),
+);
+---
+
+<Base
+  title="Talks — Suraj Rajendran"
+  description="Conference talks and invited lectures."
+>
+  <section class="bg-ink-900 text-white">
+    <div class="container-tight py-16 md:py-20">
+      <p class="text-sm font-semibold uppercase tracking-[0.18em] text-cyan-500">
+        Talks
+      </p>
+      <h1 class="mt-3 text-4xl md:text-5xl font-bold tracking-tightish">
+        Conference talks & invited lectures.
+      </h1>
+    </div>
+  </section>
+
+  <section class="bg-bg-soft">
+    <div class="container-tight py-12">
+      {rendered.length === 0 ? (
+        <div
+          class="rounded-xl border border-line bg-white p-8 text-center shadow-sm"
+        >
+          <p class="text-ink-500">
+            Conference talks and invited lectures will be listed here. Check
+            back soon.
+          </p>
+        </div>
+      ) : (
+        <div class="grid gap-5 md:grid-cols-2">
+          {rendered.map(({ entry, Content }) => (
+            <TalkCard
+              title={entry.data.title}
+              date={entry.data.date}
+              event={entry.data.event}
+              location={entry.data.location}
+              type={entry.data.type}
+              slides={entry.data.slides}
+              video={entry.data.video}
+            >
+              <Content />
+            </TalkCard>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+</Base>

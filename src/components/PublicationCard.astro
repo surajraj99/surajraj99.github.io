@@ -1,0 +1,100 @@
+---
+interface Props {
+  title: string;
+  authors: string;
+  venue: string;
+  year: number;
+  doi?: string;
+  pdf?: string;
+  html?: string;
+  featured?: boolean;
+}
+
+const { title, authors, venue, year, doi, pdf, html, featured = false } =
+  Astro.props;
+
+// Venue → tailwind badge class mapping
+const venueStyles: Record<string, string> = {
+  "Nature Communications": "bg-emerald-100 text-emerald-700",
+  "npj Digital Medicine": "bg-blue-100 text-blue-700",
+  "Lancet Digital Health": "bg-rose-100 text-rose-700",
+  "Cell Patterns": "bg-purple-100 text-purple-700",
+  iScience: "bg-amber-100 text-amber-800",
+  "PLOS Digital Health": "bg-teal-100 text-teal-700",
+  medRxiv: "bg-slate-200 text-slate-700",
+};
+const badgeClass =
+  venueStyles[venue] ?? "bg-slate-100 text-slate-700";
+
+// Truncate authors: keep first 3, show "and N more authors" if longer
+function shortenAuthors(raw: string): string {
+  // Split on commas while preserving "and others"
+  const cleaned = raw.replace(/,\s*and others/i, ", and others");
+  const parts = cleaned.split(/,\s*/);
+  if (parts.length <= 4) return parts.join(", ");
+  const first = parts.slice(0, 3).join(", ");
+  const remaining = parts.length - 3;
+  return `${first}, and ${remaining} more authors`;
+}
+const shortAuthors = shortenAuthors(authors);
+---
+
+<article
+  data-year={year}
+  class="card-lift rounded-xl border border-line bg-white p-6 shadow-sm"
+>
+  <div class="flex flex-wrap items-center gap-2">
+    <span class={`inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold ${badgeClass}`}>
+      {venue}
+    </span>
+    {featured && (
+      <span class="inline-flex items-center gap-1 rounded-full bg-brand-500/10 px-2.5 py-1 text-xs font-semibold text-brand-600">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 l2.9 6.95 7.45.6-5.65 4.95 1.75 7.25L12 17.95 5.55 21.75l1.75-7.25L1.65 9.55l7.45-.6L12 2z"/></svg>
+        Featured
+      </span>
+    )}
+  </div>
+
+  <h3 class="mt-3 text-base md:text-lg font-semibold text-ink-900 leading-snug">
+    {title}
+  </h3>
+
+  <p class="mt-2 text-sm text-ink-500 leading-relaxed">{shortAuthors}</p>
+  <p class="mt-1 text-sm italic text-ink-500">{venue} · {year}</p>
+
+  {(doi || pdf || html) && (
+    <div class="mt-4 flex flex-wrap gap-2">
+      {doi && (
+        <a
+          href={doi}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 rounded-full border border-line px-3 py-1.5 text-xs font-semibold text-ink-700 hover:border-brand-500 hover:text-brand-500 transition-colors"
+        >
+          DOI
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      )}
+      {pdf && (
+        <a
+          href={pdf}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 rounded-full border border-line px-3 py-1.5 text-xs font-semibold text-ink-700 hover:border-brand-500 hover:text-brand-500 transition-colors"
+        >
+          PDF
+        </a>
+      )}
+      {html && (
+        <a
+          href={html}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 rounded-full border border-line px-3 py-1.5 text-xs font-semibold text-ink-700 hover:border-brand-500 hover:text-brand-500 transition-colors"
+        >
+          HTML
+        </a>
+      )}
+    </div>
+  )}
+</article>
