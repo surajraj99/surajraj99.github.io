@@ -1,7 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
 import Hero from "../components/Hero.astro";
-import StatsRow from "../components/StatsRow.astro";
 import InterestChips from "../components/InterestChips.astro";
 import PublicationCard from "../components/PublicationCard.astro";
 import NewsTimelineItem from "../components/NewsTimelineItem.astro";
@@ -34,7 +33,6 @@ const recentRendered = await Promise.all(
   description="Personal research site for Suraj Rajendran — Ph.D., Weill Cornell Medicine. Multimodal AI for IVF, federated learning, clinical trial emulation."
 >
   <Hero />
-  <StatsRow />
   <InterestChips />
 
   <!-- Featured publications -->

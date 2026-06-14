@@ -93,7 +93,7 @@ const groupedByYear = years.map((y) => ({
     const bar = document.getElementById("filter-bar");
     const buttons = bar?.querySelectorAll<HTMLButtonElement>(".filter-btn");
     const groups = document.querySelectorAll<HTMLElement>("[data-year-group]");
-    const cards = document.querySelectorAll<HTMLElement>("[data-year]");
+    const cards = document.querySelectorAll<HTMLElement>("article[data-year]");
 
     function setActive(year: string) {
       buttons?.forEach((b) => {
@@ -107,10 +107,8 @@ const groupedByYear = years.map((y) => ({
       });
 
       cards.forEach((card) => {
-        if (!card.hasAttribute("data-year-group")) {
-          const y = card.dataset.year;
-          card.classList.toggle("hidden", year !== "all" && y !== year);
-        }
+        const y = card.dataset.year;
+        card.classList.toggle("hidden", year !== "all" && y !== year);
       });
       groups.forEach((g) => {
         const y = g.dataset.yearGroup;
