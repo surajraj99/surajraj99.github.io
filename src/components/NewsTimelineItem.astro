@@ -1,0 +1,53 @@
+---
+interface Props {
+  date: Date;
+  icon?: string;
+}
+
+const { date, icon } = Astro.props;
+
+const dateLabel = new Intl.DateTimeFormat("en-US", {
+  month: "short",
+  day: "numeric",
+  year: "numeric",
+}).format(date);
+---
+
+<li class="relative pl-10 fade-in">
+  <span
+    class="absolute left-0 top-1.5 inline-flex h-7 w-7 items-center justify-center rounded-full border-2 border-brand-500 bg-white text-sm shadow-sm"
+    aria-hidden="true"
+  >
+    {icon ?? "•"}
+  </span>
+  <div
+    class="card-lift rounded-xl border border-line bg-white p-5 shadow-sm"
+  >
+    <p
+      class="text-xs font-semibold uppercase tracking-wider text-brand-600"
+    >
+      {dateLabel}
+    </p>
+    <div class="mt-2 text-ink-700 prose-news">
+      <slot />
+    </div>
+  </div>
+</li>
+
+<style>
+  /* Lightweight prose for inline news markdown */
+  .prose-news :global(p) {
+    margin: 0;
+    line-height: 1.7;
+  }
+  .prose-news :global(a) {
+    color: theme("colors.brand.500");
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: color 200ms ease;
+  }
+  .prose-news :global(a:hover) {
+    color: theme("colors.brand.600");
+  }
+</style>

@@ -1,0 +1,26 @@
+---
+const interests = [
+  "Multimodal AI",
+  "Women's Health & IVF",
+  "Clinical Trial Emulation",
+  "Federated Learning",
+  "NLP in Medicine",
+  "Deep Learning in Genomics",
+];
+---
+
+<section class="bg-bg-soft">
+  <div class="container-tight py-12 md:py-16">
+    <h2 class="text-sm font-semibold uppercase tracking-[0.18em] text-ink-500">
+      Research Interests
+    </h2>
+    <div class="mt-6 flex flex-wrap gap-3">
+      {interests.map((label) => (
+        <span class="fade-in inline-flex items-center gap-2 rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-ink-700 shadow-sm">
+          <span class="h-1.5 w-1.5 rounded-full bg-brand-500" aria-hidden="true"></span>
+          {label}
+        </span>
+      ))}
+    </div>
+  </div>
+</section>
